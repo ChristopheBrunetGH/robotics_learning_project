@@ -4,10 +4,10 @@ Commit
 
 Un commit est un instantané (snapshot) de l'état complet du projet à un instant donné — pas seulement "la modification" faite. Il contient :
 
-les fichiers tels qu'ils sont à ce moment,
-un message,
-l'auteur, la date,
-une référence vers son (ou ses) commit(s) parent(s), ce qui forme la chaîne de l'historique.
+- les fichiers tels qu'ils sont à ce moment,
+- un message,
+- l'auteur, la date,
+- une référence vers son (ou ses) commit(s) parent(s), ce qui forme la chaîne de l'historique.
 
 Chaque commit est identifié par un hash unique, calculé à partir de son contenu.
 
@@ -39,7 +39,7 @@ Rebase : Git ne déplace pas les commits tels quels, il les rejoue un par un au-
 
 Quand utiliser l'un ou l'autre :
 
-Rebase : pour nettoyer son propre historique local, tant que personne d'autre n'a récupéré ces commits. Donne un historique plus lisible.
-Merge : dès qu'une branche est partagée ou déjà poussée pour d'autres.
+- Rebase : pour nettoyer son propre historique local, tant que personne d'autre n'a récupéré ces commits. Donne un historique plus lisible.
+- Merge : dès qu'une branche est partagée ou déjà poussée pour d'autres.
 
 Pourquoi ne jamais rebaser une branche partagée : le rebase change les hash des commits. Si quelqu'un a déjà pull les anciens commits avant le rebase, il garde en local les anciens hash pendant que le remote reçoit les nouveaux. Git ne voit aucun lien entre les deux séries : historique divergent, commits dupliqués, conflits confus à résoudre côté collègue.
