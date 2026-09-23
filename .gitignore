@@ -1,0 +1,22 @@
+# Workspace de compilation ROS 2 (colcon) — tout est régénérable
+build/
+install/
+log/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# C++ compilé
+*.so
+*.o
+*.a
+
+# Éditeur / IDE
+.vscode/
+
+# Divers
+*.log
+.DS_Store
