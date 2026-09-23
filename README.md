@@ -17,7 +17,7 @@ matériel réel, avec ROS 2 comme colonne vertébrale.
 
 | Palier | Thème | Statut | Durée |
 |---|---|---|---|
-| 0 | Mise en place professionnelle          | 🟡 En cours | 3 jours |
+| 0 | Mise en place professionnelle          | 🟡 En cours | 4 jours |
 | 1 | C++ et architecture logicielle         | ⚪ À faire |
 | 2 | ROS 2 fondamental                      | ⚪ À faire |
 | 3 | Modélisation 3D : URDF, TF2, RViz      | ⚪ À faire |
